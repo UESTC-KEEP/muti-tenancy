@@ -6,8 +6,8 @@ import (
 	"github.com/UESTC-KEEP/keep/cloud/pkg/common/client"
 	beehiveContext "github.com/UESTC-KEEP/keep/pkg/util/core/context"
 	logger "github.com/UESTC-KEEP/keep/pkg/util/loggerv1.0.1"
-	tenant_onadded "github.com/UESTC-KEEP/muti-tenancy/tenantcontroller/controller/tenant/informer/onadded"
-	tenant_ondeleted "github.com/UESTC-KEEP/muti-tenancy/tenantcontroller/controller/tenant/informer/ondeleted"
+	"github.com/UESTC-KEEP/muti-tenancy/controller/tenant/informer/onadded"
+	"github.com/UESTC-KEEP/muti-tenancy/controller/tenant/informer/ondeleted"
 	"k8s.io/client-go/tools/cache"
 	"time"
 )
