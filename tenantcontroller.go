@@ -1,4 +1,4 @@
-package tenant_controller
+package muti_tenancy
 
 import (
 	"github.com/UESTC-KEEP/keep/cloud/pkg/common/modules"
